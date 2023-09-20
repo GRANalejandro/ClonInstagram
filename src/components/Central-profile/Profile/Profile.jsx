@@ -2,8 +2,8 @@ import './Profile.css'
 import ProfilePrincipal from '../ProfilePrincipal/ProfilePrincipal';
 import ProfileName from '../ProfileName/ProfileName';
 import ProfileButtons from '../ProfileButtons/ProfileButtons';
-import Stories from '../Stories/Stories';
-import StoriesText from '../StoriesText/StoriesText';
+import Stories from '../../Stories/Stories';
+import StoriesText from '../../Stories/StoriesText/StoriesText';
 
 const Profile = ()=>{
     return(

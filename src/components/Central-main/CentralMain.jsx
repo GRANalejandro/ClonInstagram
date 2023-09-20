@@ -1,5 +1,5 @@
 import './CentralMain.css'
-
+import Stories from '../../components/Stories/Stories'
 
 const CentralMain = ()=>{
     return (
