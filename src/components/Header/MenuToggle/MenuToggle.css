@@ -1,0 +1,40 @@
+.menu--toggle{
+    flex: 0 1 0;
+    width: 0;
+}
+.menu--toggle > div{
+    display: flex;
+    justify-content: center;
+}
+.menu--toggle > div > p{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .menu--toggle{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex: 1 1 0;
+        width: auto;
+    }
+    .menu--toggle > div > img{
+        width: 73%;
+    }
+}
+@media screen and (min-width: 1264px){
+    .menu--toggle{
+        justify-content: flex-start;
+    }
+    .menu--toggle > div{
+        justify-content: flex-start;
+        align-items: center;
+        gap: 7%;
+    }
+    .menu--toggle > div > img{
+        width: 14%;
+    }
+    .menu--toggle > div > p{
+        display: block;
+    }
+}

@@ -1,0 +1,19 @@
+.profile__buttons{
+    display: flex;
+    gap: 2%;
+    width: 100%;
+    min-height: 36px;
+    overflow: hidden;
+}
+.profile__buttons > button{
+    flex: 1 1 0;
+}
+.profile__buttons > button:last-child{
+    max-width: 7%;
+}
+
+@media screen and (min-width: 768px) {
+    .profile__buttons{
+        display: none;
+    }
+}
