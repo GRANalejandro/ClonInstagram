@@ -11,14 +11,12 @@
 .pots__sections{
     display: flex;
     width: 100%;
+    min-height: 5%;
     max-height: 40px;
 }
 .pots__sections > div{
     flex: 1 1 0;
     border: 1px solid black;
-}
-.pots__sections > div:nth-child(3){
-    display: none;
 }
 
 @media screen and (min-width: 768px){

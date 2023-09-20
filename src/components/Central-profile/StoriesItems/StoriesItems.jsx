@@ -1,9 +1,9 @@
 import './StoriesItems.css'
 
-const StoriesItem = ()=>{
+const StoriesItem = ({img})=>{
     return(
         <div className='stories__item'>
-            
+            <img src={img} alt="" />
         </div>
     )
 };
