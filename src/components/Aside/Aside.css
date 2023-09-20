@@ -1,0 +1,5 @@
+.aside--main{
+    display: flex;
+    justify-content: center;
+    padding: 4% 2%;
+}

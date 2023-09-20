@@ -1,0 +1,7 @@
+.publication{
+    display: flex;
+    flex-direction: column;
+    width: min(100%, 469px);
+    border: 1px solid black;
+}
+

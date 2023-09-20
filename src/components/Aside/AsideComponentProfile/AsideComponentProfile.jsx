@@ -1,6 +1,6 @@
-import './AsideComponent.css'
+import './AsideComponentProfile.css'
 
-const AsideComponent = ()=>{
+const AsideComponentProfile = ()=>{
     return(
         <>
             <div className="aside__item">
@@ -15,4 +15,4 @@ const AsideComponent = ()=>{
     )
 };
 
-export default AsideComponent
+export default AsideComponentProfile

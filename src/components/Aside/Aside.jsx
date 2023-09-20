@@ -1,10 +1,16 @@
 import './aside.css'
-import AsideComponent from './AsideComponent/AsideComponent'
+import AsideComponentProfile from './AsideComponentProfile/AsideComponentProfile'
+import AsideComponentMain from './AsideComponentMain/AsideComponentMain'
 
-const Aside = ()=>{
+const Aside = ({clasShow=null, showComponentProfile = false, showComponentMain = false})=>{
     return(
-        <aside className='aside'>
-            <AsideComponent/>
+        <aside className={`aside aside--main ${clasShow}`}>
+            {
+                showComponentProfile && (<AsideComponentProfile/>)
+            }
+            {
+                showComponentMain && (<AsideComponentMain/>)
+            }
         </aside>
     )
 }

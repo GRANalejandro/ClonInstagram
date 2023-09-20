@@ -60,7 +60,11 @@
     margin-top: 2%;
   }
   .aside{
-    display: none;
+    position: relative;
+    min-width: 409px;
+    max-width: 409px;
+    height: 100%;
+    border-left: 1px solid black;
   }
 }
 

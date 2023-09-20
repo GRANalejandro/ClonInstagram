@@ -1,0 +1,9 @@
+.main{
+    padding-bottom: max(45%, 219px);
+    align-items: center;
+}
+.stories{
+    min-height: max(23vmin, 83px);
+}
+
+

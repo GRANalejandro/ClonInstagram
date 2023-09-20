@@ -1,0 +1,56 @@
+.publication__item{
+    display: flex;
+    flex-direction: column;
+}
+.publication__item > article{
+    display: flex;
+}
+.publication__item > article:first-child{
+    padding: 3% 0%;
+}
+.publication__item > article:first-child > div{
+    display: flex;
+    align-items: center;
+    flex: 1 1 0;
+}
+.publication__item > article:first-child > div > span{
+    display: block;
+}
+.publication__item > article:first-child > div:first-child > span:first-child{
+    width: max(9vmin, 50px);
+    height: max(9vmin, 50px);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.publication__item > article:first-child > div:nth-child(2){
+    justify-content: flex-end;
+}
+.publication__item > article:nth-child(2){
+    height: min(104vmin, 572px);
+    background-color: black;
+}
+.publication__item > article:last-child{
+    flex-direction: column;
+    padding: 0% 3%;
+}
+.publication__item > article:last-child > div:first-child{
+    display: flex;
+    padding: 3% 0%;
+}
+.publication__item > article:last-child > div:first-child > div{
+    flex: 1 1 0;
+}
+.publication__item > article:last-child > div:first-child > div{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.publication__item > article:last-child > div:first-child > div:last-child{
+    justify-content: flex-end;
+}
+.publication__item > article:last-child > div:first-child > div > span{
+    display: block;
+    width: max(3vmin, 28px);
+    height: max(3vmin, 28px);
+    border: 1px solid lightcoral;
+}
