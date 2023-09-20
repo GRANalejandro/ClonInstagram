@@ -1,5 +1,5 @@
 import './Stories.css'
-import StoriesItem from '../StoriesItems/StoriesItems';
+import StoriesItem from './StoriesItems/StoriesItems';
 
 const Stories = ()=>{
     const ImgStory = [

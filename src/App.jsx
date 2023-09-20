@@ -4,6 +4,7 @@ import Header from './components/header/header'
 import CentralProfile from './components/Central-profile/CentralProfile'
 import Aside from './components/Aside/Aside'
 import Footer from './components/Footer/Footer'
+import CentralMain from './components/Central-main/CentralMain'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function App() {
   return (
     <>
       <Header/>
-      <CentralProfile/>
+      <CentralMain/>
       <Aside/>
       <Footer/>
     </>
