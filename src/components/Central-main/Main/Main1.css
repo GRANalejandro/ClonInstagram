@@ -1,9 +1,9 @@
-.main1-container{
+.main-container{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
 }
-.main1-container .main-img {
-    width: 60.3935%;
+
+.main-container .main-img{
+    width: 60%
 }

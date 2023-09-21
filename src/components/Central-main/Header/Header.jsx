@@ -1,23 +1,17 @@
 import React from "react";
-import './Header.css'
+import '../Header/Header.css'
 const Header = () =>{
     return(
         <div>
-            <header ClassName="header-container">
-                <img
-                    src="src\assets\images\assets-inicio\imgs\Mi-gato-tiene-genes-de-leopardo.jpg"
-                    ClassName="perfil-img" width={50} height={50}
-                    alt="icono"
-                />
-                <div ClassName="perfil-name-container">
-                    <h4 ClassName="perfil-name">Mono_felix</h4>
-                    <h4 ClassName="perfil-title">Sponsored</h4>
+            <header className="header-container">
+                <img className="perfil-img" src="src\assets\images\assets-inicio\imgs\Mi-gato-tiene-genes-de-leopardo.jpg" alt="icono de perfil" />
+
+                <div className="contenedor-perfil-name">
+                    <h4 className="perfil-name">Alejandro Lopez</h4>
+                    <h4 className="perfil-title">Probando</h4>
                 </div>
-                <img
-                    src="src\assets\images\assets-inicio\iconos\puntos.png"
-                    ClassName="menu-header" height={27}
-                    alt="tres puntos"
-                />
+
+                <img className="menu-header" src="src\assets\images\assets-inicio\iconos\puntos.png" alt="puntos de opciones" />
             </header>
         </div>
     )

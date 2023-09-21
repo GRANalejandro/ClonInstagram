@@ -2,34 +2,39 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1.5rem;
+    justify-content: center;
+    font-size: 1em;
     width: 60%;
-    height: 80px;
-    margin: 50px auto 0 auto;
+    height: 80%;
     background-color: rgb(255, 255, 255);
-    border:1px solid rgb(208, 208, 208);
+    border:1px solid rgb(208, 208, 208)
 }
-.header-container .perfil-img {
+
+.header-container .perfil-img{
     width: 50px;
     height: 50px;
-    border-radius: 50px;
-    margin: 0 12px 0 7px;
+    border-radius: 50%;
+    margin: 0 12px o 7px;
 }
-.perfil-name-container {
-margin-right: auto;
-}
-.perfil-name-container .perfil-title {
-   font-weight: 400;
-   font-size: 0.85rem;
-}
-.header-container .menu-header {
-    width: 27px;
+
+.header-container .menu-header{
+    height: 25px;
     border-radius: 50px;
     margin: 0 5px 0 9px;
-    transform: rotate(90deg);
 }
-.header-container h4 {
-  margin-right: auto;
-  font-size: 0.95rem;
-  font-weight: 600;
+
+.contenedor-perfil-name{
+    margin-right: auto;
+    padding-left: 2%;
+}
+
+.contenedor-perfil-name .perfil-title{
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.header-container h4{
+    margin-right: auto;
+    font-size: 0.95rem;
+    font-weight: 600;
 }
