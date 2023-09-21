@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+  
+}
+.footer-icons{
+    display: flex;
+}
+.corazon{
+    background-image: url('src\assets\images\assets-inicio\iconos\corazon.png');
+
+    cursor: pointer;
+}
+
