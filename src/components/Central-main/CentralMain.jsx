@@ -8,6 +8,7 @@ const CentralMain = ()=>{
     return (
         <main className='main'>
             <div>
+                <Stories/>
                 <Header/>
                 <Main1/>
                 <Like/>
