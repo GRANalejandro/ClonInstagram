@@ -8,6 +8,8 @@
 .footer-icons{
     margin-bottom: 5px;
     display: flex;
+    margin-left: -2%;
+    align-items: center;
 }
 
 .corazon{
@@ -15,30 +17,63 @@
     background-position: center center;
     padding: 20px;
     background-size: 25px 25px;
-    margin-left: 1px;
     cursor: pointer;
-    width: 70px;
+    width: 65px;
 }
 
-.corazon_active{
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 20px;
-    background-size: 25px 25px;
-    margin-left: 1px;
+.corazon:hover {
+     filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
     cursor: pointer;
-    width: 70px;
-}
+ }
 
 .footer-icons .burbuja{
-    background-image: url('src\assets\images\assets-inicio\iconos\burbuja.png');
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px;
     background-size: 31px 31px;
     cursor: pointer;
-    width: 60px;
-    height: 60px;
-    z-index: 5;
+    width: 70px;
+    margin-left: -3%;
 
+}
+
+.footer-icons .burbuja:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+}
+
+.footer-icons .enviar{
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    background-size: 22px 22px;
+    cursor: pointer;
+    width: 60px;
+    height: 65px;
+    margin-left: -3%;
+    transform: rotate(10deg);
+
+}
+
+.footer-icons .enviar:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+}
+
+.guardar-icon-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    cursor: pointer;
+    }
+.guardar {
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    cursor: pointer;
+    width: 60px;
+    margin-left: -25%;
+}
+
+.guardar:hover {
+    filter: invert(72%) sepia(10%) saturate(291%) hue-rotate(188deg) brightness(95%) contrast(88%);
+    cursor: pointer;
 }
