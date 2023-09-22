@@ -1,3 +1,5 @@
+import CentralMain from "../../Central-main/CentralMain";
+import CentralProfile from "../../Central-profile/CentralProfile";
 import MenuItem from "../MenuItems/MenuItems";
 import './menu.css'
 
