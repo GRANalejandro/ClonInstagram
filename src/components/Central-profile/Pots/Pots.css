@@ -15,9 +15,13 @@
     max-height: 40px;
 }
 .pots__sections > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1 1 0;
     border: 1px solid black;
 }
+
 
 @media screen and (min-width: 768px){
     .pots{
@@ -26,8 +30,5 @@
     .pots__sections{
         max-width: 38rem;
         gap: 12%;
-    }
-    .pots__sections > div:nth-child(3){
-        display: flex;
     }
 }

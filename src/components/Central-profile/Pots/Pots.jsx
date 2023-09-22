@@ -6,9 +6,15 @@ const Pots = ()=>{
     return(
         <div className="pots">
             <div className='pots__sections'>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <p>Publicaciones</p>
+                </div>
+                <div>
+                    <p>Guardado</p>
+                </div>
+                <div>
+                    <p>Etiquetas</p>
+                </div>
             </div>
             <PotsImage/>
         </div>
