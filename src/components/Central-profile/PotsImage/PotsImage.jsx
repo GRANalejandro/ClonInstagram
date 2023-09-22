@@ -3,23 +3,14 @@ import './PotsImage.css'
 
 
 const PotsImage = ()=>{
+    const postImage = [
+        {
+            image: ''
+        },
+    ]
     return(
         <div className='pots__images'>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
-            <PotsImagesItems/>
+
         </div>
     )
 }

@@ -1,7 +1,7 @@
 .pots__images{
     display: grid;
-    grid-template-columns: repeat(3, min(28vw, 300px));
-    grid-auto-rows: min(28vw, 300px);
+    grid-template-columns: repeat(3, min(28vw, 387px));
+    grid-auto-rows: min(28vw, 387px);
     justify-content: center;
     min-width: 100%;
     border: 1px solid black;

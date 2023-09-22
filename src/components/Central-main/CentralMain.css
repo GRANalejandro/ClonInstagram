@@ -5,5 +5,9 @@
 .stories{
     min-height: max(23vmin, 83px);
 }
-
-
+.stories > div{
+    align-items: center;
+}
+.stories > div > div{
+    
+}
