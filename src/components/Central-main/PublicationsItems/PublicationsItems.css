@@ -27,7 +27,9 @@
 }
 .publication__item > article:nth-child(2){
     height: min(104vmin, 572px);
-    background-color: black;
+    background-image: url('https://d2a5isokysfowx.cloudfront.net/wp-content/uploads/2022/02/%C2%BFQue-es-un-framework-en-programacion-scaled-1200x675.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .publication__item > article:last-child{
     flex-direction: column;
