@@ -1,6 +1,6 @@
 .stories{
     display: flex;
-    width: 100%;
+    width: 90%;
     overflow-x: scroll;
 }
 .stories__content{

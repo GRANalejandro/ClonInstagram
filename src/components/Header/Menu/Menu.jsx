@@ -1,3 +1,5 @@
+import CentralMain from "../../Central-main/CentralMain";
+import CentralProfile from "../../Central-profile/CentralProfile";
 import MenuItem from "../MenuItems/MenuItems";
 import './menu.css'
 
@@ -16,7 +18,7 @@ const Menu = ()=>{
         alt: 'Icono de la casa de la barra de navegacion de instagram',
         textP: 'Inicio',
         ActionFuntion: () => {
-         alert('Hola')
+         
       }
      },
      {
@@ -45,7 +47,7 @@ const Menu = ()=>{
         textP: 'Perfil',
         onSecondImg: true,
         ActionFuntion: () => {
-         alert('Hola2')
+         <CentralProfile/>
       }
      },
      {
