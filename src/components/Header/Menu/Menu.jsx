@@ -15,17 +15,12 @@ const Menu = ()=>{
         image_rut: 'house.svg',
         alt: 'Icono de la casa de la barra de navegacion de instagram',
         textP: 'Inicio',
-        ActionFuntion: () => {
-         alert('Hola')
-      }
+        toLink: '/',
      },
      {
         image_rut: 'magnifying.svg',
         alt: 'Icono de la casa de la barra de navegacion de instagram',
         textP: 'Buscar',
-        ActionFuntion: () => {
-         alert('Hola1')
-      }
      },
      {
         image_rut: 'square.svg',
@@ -44,17 +39,12 @@ const Menu = ()=>{
         secondAlt: 'Icono de corazon en la barra de navegacion',
         textP: 'Perfil',
         onSecondImg: true,
-        ActionFuntion: () => {
-         alert('Hola2')
-      }
+        toLink: '/profile',
      },
      {
         image_rut: 'heart.svg',
         alt: 'Icono de la casa de la barra de navegacion de instagram',
         textP: 'Notificaciones',
-        ActionFuntion: () => {
-         alert('Hola3')
-      }
      },
      {
         image_rut: 'messages.svg',
@@ -71,7 +61,7 @@ const Menu = ()=>{
         <ul className="menu">
             {
                 images.map((image)=>(
-                    <MenuItem url={image.image_rut} alt={image.alt} secondImg={image.onSecondImg} secondUrl={image.image_rut2} secondAlt={image.secondAlt} onText={image.textOn} text={image.textP} action={image.ActionFuntion}/>
+                    <MenuItem url={image.image_rut} alt={image.alt} secondImg={image.onSecondImg} secondUrl={image.image_rut2} secondAlt={image.secondAlt} onText={image.textOn} text={image.textP} action={image.ActionFuntion} toProp={image.toLink}/>
                 ))
             }    
         </ul>

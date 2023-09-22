@@ -4,15 +4,18 @@ import Header from './components/header/header'
 import CentralProfile from './components/Central-profile/CentralProfile'
 import Footer from './components/Footer/Footer'
 import CentralMain from './components/Central-main/CentralMain'
+import RoutesWrapper from './components/Routing/Routing'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header/>
-      <CentralMain/>
-      <Footer/>
+         <RoutesWrapper>
+        {/* Renderizamos el componente de navegación 'Nav' */}
+          <Header/>
+        </RoutesWrapper>
+        <Footer/>
     </>
   )
 }

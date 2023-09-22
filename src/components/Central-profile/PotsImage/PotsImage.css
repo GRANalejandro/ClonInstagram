@@ -4,5 +4,11 @@
     grid-auto-rows: min(28vw, 387px);
     justify-content: center;
     min-width: 100%;
-    border: 1px solid black;
+}
+
+@media screen and (min-width: 1264px) {
+    .pots__images{
+        grid-template-columns: repeat(3, min(28vw, 316px));
+        grid-auto-rows: min(28vw, 316px);
+    }
 }
