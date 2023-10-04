@@ -1,4 +1,3 @@
-import Nav from '../../../../../react-escuela-robotica-choco/React-semana-4/routing/routing-erc/src/components/Navegacion';
 import './MenuItems.css'
 import { Outlet, NavLink } from "react-router-dom";
 
